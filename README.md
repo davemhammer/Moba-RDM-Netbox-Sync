@@ -33,8 +33,6 @@ kinds (e.g. both SSH and RDP) gets an entry in each protocol folder.
    python -c "import certifi,shutil; shutil.copy(certifi.where(),'ca_bundle.pem')"
    # then append your server's missing intermediate cert to ca_bundle.pem
    ```
-   `godaddy_g2_intermediate.pem` is already included as an example — this
-   repo's NetBox instance uses a GoDaddy cert missing its intermediate.
 
 ## Scripts
 
