@@ -1,4 +1,7 @@
 <#
+Copyright (c) 2026 David Hammer. Licensed under the MIT License (see
+LICENSE in the repository root).
+
 .SYNOPSIS
     Sync NetBox devices/VMs into Devolutions Remote Desktop Manager as
     sessions under Group "<Org>\<Site>\<Protocol>", mirroring the MobaXterm

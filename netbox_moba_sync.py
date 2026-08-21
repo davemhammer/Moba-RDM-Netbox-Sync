@@ -1,4 +1,7 @@
 """
+Copyright (c) 2026 David Hammer. Licensed under the MIT License (see
+LICENSE in the repository root).
+
 Pull devices and VMs from NetBox and sync them into MobaXterm.ini as
 bookmarks under <Organization>\\<Site>\\<Protocol>\\<Name>.
 

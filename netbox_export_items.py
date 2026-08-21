@@ -1,4 +1,7 @@
 """
+Copyright (c) 2026 David Hammer. Licensed under the MIT License (see
+LICENSE in the repository root).
+
 Export the same NetBox-derived bookmark items used by netbox_moba_sync.py
 as JSON, for consumption by netbox_rdm_sync.ps1 (or anything else that
 wants the raw item list without touching MobaXterm.ini).
