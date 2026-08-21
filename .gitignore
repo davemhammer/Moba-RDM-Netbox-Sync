@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+# Real credentials/config -- keep only config.ini.example in the repo
+config.ini
+
+# Generated CA bundle artifacts (environment-specific, rebuild per README)
+ca_bundle.pem
+*_intermediate.pem
+
+# Exported item dumps
+items.json
+
+# Local-only utility/one-off scripts, not part of the published tool
+scripts/

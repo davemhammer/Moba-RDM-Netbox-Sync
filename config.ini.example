@@ -1,0 +1,21 @@
+[netbox]
+url = https://netbox.example.com
+token = REPLACE_ME
+verify_ssl = true
+; Only needed if the server doesn't send its full cert chain (common with
+; GoDaddy-issued certs that omit the intermediate). Path to a CA bundle file;
+; leave blank to use the system/certifi default trust store.
+ca_bundle = ca_bundle.pem
+
+[moba]
+; Path to the live MobaXterm.ini (find yours via HKCU\Software\Mobatek\MobaXterm -> LastIniPath)
+ini_path = C:\Users\dave\AppData\Roaming\MobaXterm\MobaXterm.ini
+organization = Acme
+; Folder icon index used for new NetBox-managed subfolders
+img_num = 41
+ssh_port = 22
+; Leave any of these blank to omit the username from generated bookmarks.
+; ssh_username also applies to VM SSH-service bookmarks.
+ssh_username =
+rdp_username =
+telnet_username =
