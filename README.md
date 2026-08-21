@@ -5,6 +5,8 @@ Remote Desktop Manager (RDM) sessions. Everything is derived from NetBox on
 each run — nothing here should be hand-edited on the MobaXterm/RDM side,
 since both syncs treat NetBox as the source of truth.
 
+Works for me, but use at your own risk!
+
 ## Folder structure produced
 
 Both syncs organize into the same tree:
