@@ -13,9 +13,14 @@ ini_path = C:\Users\dave\AppData\Roaming\MobaXterm\MobaXterm.ini
 organization = Acme
 ; Folder icon index used for new NetBox-managed subfolders
 img_num = 41
+; ssh_port/ssh_username are fallback-only: used for devices with no matching
+; NetBox service (SSH/RDP/Telnet/HTTP/HTTPS), so untagged devices still get
+; a bookmark instead of disappearing. Any device/VM with a matching service
+; uses that service's own port instead of this value.
 ssh_port = 22
 ; Leave any of these blank to omit the username from generated bookmarks.
-; ssh_username also applies to VM SSH-service bookmarks.
+; ssh_username also applies to VM SSH-service bookmarks that match a
+; service (unlike ssh_port, which is fallback-only for those).
 ssh_username =
 rdp_username =
 telnet_username =
